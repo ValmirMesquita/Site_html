@@ -1,0 +1,125 @@
+header{
+    background: url("../imagem/bg.jpg"); 
+    padding: 20px 0;
+}
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+
+}
+nav{
+    position: absolute;    
+    top: 110px;
+    right: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+
+
+}
+nav li{
+    display: inline;/* Coloca o menu em linha reta*/
+    margin: 0 0 0 15px; /* Margem de separação do menu*/
+
+
+}
+/* Modifica a parte textual do menu*/
+nav a{
+    text-transform: uppercase;
+    color: rgb(248, 246, 246);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;   
+}
+nav a:hover {
+    color: rgb(211, 167, 45);
+}
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 10% 0;
+    
+}
+
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border: 2px solid rgb(7, 7, 7);
+    border-radius: 20px;
+  
+}
+.produtos li:hover{
+    border-color: rgb(214, 202, 31);
+    font-size: 40px;
+}
+.produtos li:active{
+    border-color: rgb(73, 211, 45);
+}
+.produtos li:hover h2{
+    font-size: 40px;
+}
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao{
+    font-size: 18px;
+    font-weight: bold
+
+}
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0 ;
+    
+    
+}
+footer{
+    text-align: center;
+    background: url("../imagem/bg.jpg");  
+    padding: 40px 0;
+
+
+    
+    
+}
+.footer-copyhigt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    color: aliceblue;
+    font-size: 13px;
+    margin: 20px;
+    
+
+    
+
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+form input{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px;
+    width: 50%;
+    
+}
